@@ -1,0 +1,57 @@
+body {
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/016/124/733/non_2x/poker-and-casino-playing-card-black-background-vector.jpg);
+}
+
+
+.title {
+font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  font-style: normal;
+}
+
+.btngg {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+
+
+.border-line {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 48rem) {
+  .pre-title {
+    font-size: 10vw;
+  }
+  .title {
+    font-size: 12vw;
+  }
+  .sub-title {
+    font-size: 11vw;
+  }
+  .form-control {
+    font-size: 8vw;
+    max-width: 500px;
+    margin-right: 0px;
+  }
+  .main-img {
+    width: 40vw;
+  }
+}
